@@ -20,21 +20,15 @@ main {
 	margin-bottom: 150px;
 }
 
-#categorias{
+#categorias {
 	background: #ffe600;
 	border: none;
 	font-weight: 500;
 }
-.header {
-	background-color: #ffe600;
-	height: 100px;
-	display: flex;
-	justify-content: space-between;
-}
 
 .navbar {
 	background-color: #ffe600;
-	height: 100px;
+	height: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -56,31 +50,32 @@ main {
 	width: 80%;
 }
 
-#logo{
+#logo {
 	width: 180px;
 }
 
 
 .header {
-	height: 100px;
+	height: 50px;
 	background-color: #ffe600;
 	display: flex;
 	align-items: center;
-	padding-inline: 15%;
+	gap: 3rem;
+	padding-inline: 10%;
 	border: 0;
 	width: 100%;
 }
 
-.header.right {
+.header {
 	display: flex;
 	margin-left: 0 auto;
-	justify-content: flex-end;
+	/* justify-content: flex-end; */
 }
 
 .form {
 	display: flex;
 	justify-content: center;
-	width: 40%;
+	width: 50%;
 }
 
 .form button {
@@ -95,7 +90,6 @@ main {
 	flex-grow: 5;
 	height: 40px;
 	font-size: 16px;
-	display: flex;
 	border-radius: 2px 0px 0px 2px;
 	border: 0px;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .2);
@@ -103,7 +97,6 @@ main {
 }
 
 .button-nav {
-	/*padding: 10px 60px 10px 15px;*/
 	border-radius: 0px 2px 2px 0px;
 	border: none;
 	background-color: #fff;
@@ -113,17 +106,8 @@ main {
 	align-content: center;
 }
 
-.button-nav img1 {
-	width: 44px;
-	height: 21px;
-}
-
 .header input:focus {
 	border: 1.5px solid #3483fa;
-}
-
-.add {
-	display: inline-block;
 }
 
 .add img {
@@ -147,18 +131,11 @@ h2 {
 	display: flex;
 	flex-direction: row;
 	gap: 25px;
-	margin: 0px 100px;
+	margin: 10px 100px;
 }
 
 .subtitle {
-	margin-top: 25px;
-}
-
-.contenedor {
-	display: flex;
-	flex-direction: row;
-	margin: 0 auto;
-	width: 80%;
+	margin-top: 5px;
 }
 
 .row {
@@ -213,14 +190,14 @@ h2 {
 	text-decoration: none;
 }
 
-.card-info{
+.card-info {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	width: 100%;
 }
 
-.infoProducto{
+.infoProducto {
 	display: flex;
 	flex-direction: column;
 	height: 140px;
@@ -230,7 +207,7 @@ h2 {
 	display: flex;
 	color: #4b4b4b;
 	background-color: #fff;
-	width: 584px; 
+	width: 584px;
 	height: 250px;
 	padding: 0px 0px 0px 30px;
 	border-radius: 2px;
@@ -263,4 +240,81 @@ h2 {
 	border-radius: 2px;
 	padding: 9px 10px;
 	margin-top: 13px;
+}
+
+.callToAction:hover {
+	background-color: #135ac5;
+}
+
+.caracteristicas {
+	background-color: #fff;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 350px;
+}
+
+.caracter {
+	width: 33.3%;
+	margin: 0 auto;
+	padding: 35px 45px 20px;
+}
+
+.caracter h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.4;
+	color: #4b4b4b;
+}
+
+.caracter p {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #737373;
+}
+
+.caracter a {
+	color: #3483fa;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #fff;
+	padding: 25px 10px;
+	height: 100px;
+	border-top: 1px solid #d6d4d4;
+
+
+}
+
+.links {
+	margin-left: 85px;
+	margin-bottom: 8px;
+}
+
+.copy {
+	margin: 0px 100px;
+}
+
+.copy span {
+	color: #999;
+	font-size: 13px;
+}
+
+.footer-item {
+	font-size: 13px;
+	display: inline-block;
+}
+
+.footer-item .link-footer {
+	color: #333;
+	text-decoration: none;
+	font-weight: 400;
+	padding-bottom: 8px;
+	padding: 0px 15px;
 }
